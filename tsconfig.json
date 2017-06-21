@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "built",
+    "alwaysStrict": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "noImplicitUseStrict": false,
+    "noLib": false,
+    "noResolve": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "typingOptions": {
+    "enableAutoDiscovery": true
+  },
+  "enableAutoDiscoveryDefinition": true,
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "include": [
+    "**/*.ts",
+    "**/*.d.ts",
+    "**/*.tsx",
+    "**/*.d.tsx"
+  ],
+  "exclude": [
+    "built",
+    "node_modules"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "functions": {
+    "source": "."
+  },
+  "hosting": {
+    "public": "static",
+    "rewrites": [{
+      "source": "!(/**/*.*)",
+      "function": "default"
+    }]
+  }
+}

@@ -1,0 +1,22 @@
+# Logs
+*.log
+
+# Locks
+*.lock
+
+# Dependency
+node_modules
+
+# NPM
+.npm
+package-lock.json
+
+# dotenv environment variables file
+.env
+
+# Credential
+credential.sh
+
+# Firebase
+.firebaserc
+database.rules.json
